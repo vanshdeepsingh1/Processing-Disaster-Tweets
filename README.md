@@ -23,6 +23,7 @@ Text: text of the tweet
 1. Transformer Encoder reads entire word sequence at once, instead of text input sequentially
 
 2. Wrapper incorporates Cross Validation and metrics like Mean F score, Accuracy, Precision, F1 Score Recall etc.)
+
 3.Parameters like learning Rate, Epochs, and Batch_size can be used for controlling BERT learning process
 
 
