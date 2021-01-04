@@ -3,9 +3,13 @@ Twitter has become an important communication channel in times of emergency. The
 
 # Key Parameter
 Keyword : Particular keyword from tweet
+
 Target : denotes whether tweet is about disaster(1) or no (0)
+
 Location : Location from where tweet was posted 
+
 Id : Unique Identifier for tweets
+
 Text: text of the tweet
 
 # Methodology 
@@ -19,7 +23,6 @@ Text: text of the tweet
 1. Transformer Encoder reads entire word sequence at once, instead of text input sequentially
 
 2. Wrapper incorporates Cross Validation and metrics like Mean F score, Accuracy, Precision, F1 Score Recall etc.)
-
 3.Parameters like learning Rate, Epochs, and Batch_size can be used for controlling BERT learning process
 
 
